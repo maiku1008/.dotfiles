@@ -1,4 +1,4 @@
-# dotfiles
+# .dotfiles
 sk1u's dotfiles
 
 # Helpful Guides
