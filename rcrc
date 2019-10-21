@@ -1,1 +1,2 @@
-EXCLUDES="README.md LICENSE brew_list.md rcrc"
+EXCLUDES="README.md LICENSE brew_list.md app_list.md rcrc"
+DOTFILES_DIRS="$HOME/.dotfiles"

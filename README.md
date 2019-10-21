@@ -8,6 +8,6 @@ sk1u's dotfiles
 
 # Quick Commands
 ```
-➜  ~ mkrc .screenrc
+➜  ~ mkrc ~/.screenrc
 ➜  ~ env RCRC=$HOME/.dotfiles/rcrc rcup -v
 ```
