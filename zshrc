@@ -104,4 +104,7 @@ alias python='python3'
 # Sublime Text 3
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
+# Add Visual Studio Code (code)
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+
 source $ZSH/oh-my-zsh.sh
