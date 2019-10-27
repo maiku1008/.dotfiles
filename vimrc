@@ -128,6 +128,8 @@ set pastetoggle=<F11>
 " Set relative number line
 set number relativenumber
  
+" Use system clipboard
+set clipboard=unnamed
 "------------------------------------------------------------
 " Indentation options {{{1
 "
