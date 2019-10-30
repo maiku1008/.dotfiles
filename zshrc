@@ -48,6 +48,9 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Protocol buffer path for gRPC
 export PATH=$PATH:/Users/michael.cuffaro/apps/protoc-3.10.0-osx-x86_64/bin
 
+# Editor
+export EDITOR=vim
+
 # Eval
 
 # The Fuck
@@ -90,8 +93,8 @@ alias vu='vagrant up'
 
 # Helper Script Aliases
 alias vr='. /Users/michael.cuffaro/.scripts/vagrant_local_refresh.sh'
-alias kh='nvim ~/.ssh/known_hosts'
-alias zshrc='nvim ~/.zshrc'
+alias kh='vim ~/.ssh/known_hosts'
+alias zshrc='vim ~/.zshrc'
 alias srczsh='source ~/.zshrc'
 
 # Lyrics
