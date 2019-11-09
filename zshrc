@@ -27,8 +27,9 @@ plugins=(
 # Environment Variables
 
 # Golang
+export GOBIN="/Users/michael.cuffaro/go/bin"
 export GOPATH="/Users/michael.cuffaro/go"
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOBIN
 
 # Ruby
 export GEM_HOME=$HOME/gems
