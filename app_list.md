@@ -4,6 +4,7 @@ Cyberduck.app
 Dash.app
 Docker.app
 Firefox.app
+Folx.app
 Franz.app
 GZDoom.app
 Google Chrome.app
@@ -20,6 +21,7 @@ Microsoft Word.app
 Notion.app
 Numbers.app
 Pages.app
+Popcorn-Time.app
 Postman.app
 Safari.app
 Sequel Pro.app

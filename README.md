@@ -9,5 +9,8 @@ sk1u's dotfiles
 # Quick Commands
 ```
 ➜  ~ mkrc ~/.screenrc
-➜  ~ env RCRC=$HOME/.dotfiles/rcrc rcup -v
+➜  ~ env RCRC=$HOME/.dotfiles/.rc rcup -v
 ```
+
+# App and Brew list
+Run `./dump.sh` to populate app_list.md and brew_list.md.
