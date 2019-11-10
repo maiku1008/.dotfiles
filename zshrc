@@ -94,12 +94,11 @@ alias vu='vagrant up'
 
 # Helper Script Aliases
 alias vr='. /Users/michael.cuffaro/.scripts/vagrant_local_refresh.sh'
+
+# Helper Aliases
 alias kh='vim ~/.ssh/known_hosts'
 alias zshrc='vim ~/.zshrc'
 alias srczsh='source ~/.zshrc'
-
-# Lyrics
-alias lyrics='vagalume'
 
 # Python
 alias pip='pip3'

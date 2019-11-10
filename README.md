@@ -1,5 +1,5 @@
 # .dotfiles
-sk1u's dotfiles
+Michael's dotfiles
 
 # Helpful Guides
 - https://uracode.com/2017/08/05/the-perks-of-storing-your-dotfiles-in-a-repository/
