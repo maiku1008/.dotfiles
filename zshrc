@@ -20,6 +20,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(
   git
   virtualenvwrapper
+  fzf
 )
 
 # User configuration
