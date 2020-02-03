@@ -32,6 +32,11 @@ export GOBIN="/Users/michael.cuffaro/go/bin"
 export GOPATH="/Users/michael.cuffaro/go"
 export PATH=$PATH:$GOBIN
 
+# Colorized go test
+go_test() {
+  go test $* | sed ''/PASS/s//$(printf "\033[32mPASS\033[0m")/'' | sed ''/SKIP/s//$(printf "\033[34mSKIP\033[0m")/'' | sed ''/FAIL/s//$(printf "\033[31mFAIL\033[0m")/'' | sed ''/FAIL/s//$(printf "\033[31mFAIL\033[0m")/'' | GREP_COLOR="01;33" egrep --color=always '\s*[a-zA-Z0-9\-_.]+[:][0-9]+[:]|^'
+}
+
 # Ruby
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
